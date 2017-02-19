@@ -1,0 +1,62 @@
+[gd_scene format=2]
+
+[node name="Game" type="Control"]
+
+margin_right = 40.0
+margin_bottom = 40.0
+rect_clip_content = false
+mouse_filter = 0
+
+[node name="click" type="Button" parent="."]
+
+margin_left = 414.0
+margin_top = 300.0
+margin_right = 540.0
+margin_bottom = 320.0
+rect_clip_content = false
+mouse_filter = 0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Write some code!"
+flat = false
+
+[node name="InfoContainer" type="HBoxContainer" parent="."]
+
+margin_left = 57.0
+margin_top = 489.0
+margin_right = 158.0
+margin_bottom = 529.0
+rect_clip_content = false
+mouse_filter = 1
+alignment = 0
+
+[node name="LOClabel" type="Label" parent="InfoContainer"]
+
+margin_top = 13.0
+margin_right = 89.0
+margin_bottom = 27.0
+rect_clip_content = false
+mouse_filter = 2
+size_flags_vertical = 0
+text = "Lines of code:"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="LOCvalue" type="Label" parent="InfoContainer"]
+
+margin_left = 93.0
+margin_top = 13.0
+margin_right = 101.0
+margin_bottom = 27.0
+rect_clip_content = false
+mouse_filter = 2
+size_flags_vertical = 0
+text = "0"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+
